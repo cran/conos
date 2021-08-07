@@ -1,10 +1,10 @@
-ef82a8edcbfebb1eb79aea8875dae26f *DESCRIPTION
+f961b2080fc70d863d5620fdcb1fc372 *DESCRIPTION
 9eb146f470f6fde40724c2277472bd92 *NAMESPACE
 62256db47cb27baa9a235d16168b80d1 *R/RcppExports.R
 5856ef581b5d6a0991b1fb92e791b9bc *R/access_wrappers.R
 f7624f4f0a78abc0c5b43869e92b1d6d *R/communities.R
 aa963c65369583604e95b2d2487d1341 *R/conclass.R
-2227e7f4dcef4b09bafc261fc76fe608 *R/conos.R
+7a00874d485d6c0e2f56088255c7c36e *R/conos.R
 f4ebec7ebbece32a6c30dd5b70b357f0 *R/data.R
 545f7373d4277e51359abf47f60b16a3 *R/de_functions.R
 e9668258bcd219ac9ebd856af220c68a *R/graph_embedding.R
