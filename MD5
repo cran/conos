@@ -1,9 +1,9 @@
-f961b2080fc70d863d5620fdcb1fc372 *DESCRIPTION
+482d0e0802b197fe10f87e7369c10334 *DESCRIPTION
 9eb146f470f6fde40724c2277472bd92 *NAMESPACE
 62256db47cb27baa9a235d16168b80d1 *R/RcppExports.R
-5856ef581b5d6a0991b1fb92e791b9bc *R/access_wrappers.R
+603ea6178259d0c99887e781dbbc1ec7 *R/access_wrappers.R
 f7624f4f0a78abc0c5b43869e92b1d6d *R/communities.R
-aa963c65369583604e95b2d2487d1341 *R/conclass.R
+5f503b933533bf382ba64ee1fc7ec911 *R/conclass.R
 7a00874d485d6c0e2f56088255c7c36e *R/conos.R
 f4ebec7ebbece32a6c30dd5b70b357f0 *R/data.R
 545f7373d4277e51359abf47f60b16a3 *R/de_functions.R
@@ -11,13 +11,13 @@ e9668258bcd219ac9ebd856af220c68a *R/graph_embedding.R
 39a3d52c984632d3f8809411a307784b *R/integrations.R
 3cddfd128e8abb8286f5f7084fae9a07 *R/largeVis.R
 e2ab9e540584d54c9b85b5b692dabd5d *R/plot.R
-a977440cbde870fc002d0b5df2891a99 *README.md
+b20483653d29facfa9b2ecedfaa784b1 *README.md
 46f8ff274967c4244d66e3696d745233 *data/small_panel.preprocessed.rda
 ff08b0575b5fdf2efc9e439157d95f2c *inst/COPYRIGHTS
 a3e977520ed794ae5003e2e56b869959 *inst/conos_logo.png
 74b825d278099961cd045b0b4a9d3741 *inst/extdata/cellannot.txt
 78a2192bd78c326dc8dda9f25347083b *inst/scanpy_integration.ipynb
-860122dc5a358ab36d14ed49f9f4c18c *man/Conos.Rd
+c4898c4810273ce4f1e4aa85f3b0f56f *man/Conos.Rd
 3b4bc4c5a1138783fafacfed07e908a9 *man/basicSeuratProc.Rd
 c13397b8e60fe6040f09ceeee8621501 *man/bestClusterThresholds.Rd
 3659cb9129afbac64b3a9a485ab5a8cf *man/bestClusterTreeThresholds.Rd
@@ -35,7 +35,7 @@ d7525969d6785515e984af82306a0c7f *man/getBetweenCellTypeDE.Rd
 9e58f0f05d13d8c03c339e40057d2cc8 *man/getClusteringGroups.Rd
 e49bde0c2ca3f288d6707aac9a583ed4 *man/getCountMatrix.Rd
 54e3bb29f74909eb027d81678a4877bb *man/getEmbedding.Rd
-c56371cca2bde1d474f0956df365a929 *man/getGeneExpression.Rd
+3e0d215f95a30bdd3926dbbe439b101a *man/getGeneExpression.Rd
 be28ae13440353d942c44f240ea4e99f *man/getGenes.Rd
 1e5ba464976fadca8c9638909112f074 *man/getGlobalClusterMarkers.Rd
 462b579367c5b9852572a4dac86aaa4e *man/getNeighborMatrix.Rd
@@ -74,7 +74,7 @@ d79637d59b2ba7627063b57dd0d9861f *man/sgdBatches.Rd
 ec8a8ed06cdc90d0c4a870c5beec2321 *man/stableTreeClusters.Rd
 fee3be7c13b065c9b1a8ae5f99cd02b4 *src/Makevars
 65b92938e3f3a8171632bfb8371c6e63 *src/Makevars.win
-dc390d43eba9f73e702e062c4295d884 *src/RcppExports.cpp
+c9feabe8f86829d48fee469a263d09ca *src/RcppExports.cpp
 34b117354cb9e7901efb14c344308c83 *src/Rjnmf.cpp
 42be6faf3ca456cd336ccea3e8b9716e *src/adjustedRand.c
 d9bd7a0b59d996f85bed193eddcb9cc9 *src/checkfunctions.cpp
