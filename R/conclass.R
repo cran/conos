@@ -319,7 +319,7 @@ Conos <- R6::R6Class("Conos", lock_objects=FALSE,
       }
       # append local edges
       if(k.self>0) {
-        if(is.null(local.neighbors) || snn.k!=k.self) { # recalculate local neighbors
+        if(is.null(local.neighbors) || snn.k.self != k.self) { # recalculate local neighbors
           local.neighbors <- getLocalNeighbors(self$samples[! names(self$samples) %in% exclude.samples], k.self, k.self.weight, metric, l2.sigma=l2.sigma, verbose, self$n.cores)
         }
         el <- rbind(el,getLocalEdges(local.neighbors))
@@ -387,13 +387,11 @@ Conos <- R6::R6Class("Conos", lock_objects=FALSE,
 
       de.genes <- getDifferentialGenesP2(self$samples, groups=groups, z.threshold=z.threshold, upregulated.only=upregulated.only, verbose=verbose, n.cores=self$n.cores)
       de.genes <- de.genes[levels(groups)]
-
       if (append.specificity.metrics) {
         if (verbose) message("Estimating specificity metrics")
 
         cm.merged <- self$getJointCountMatrix(raw=TRUE)
         groups.clean <- groups %>% .[!is.na(.)] %>% .[names(.) %in% rownames(cm.merged)]
-
         de.genes %<>% lapply(function(x) if ((length(x) > 0) && (nrow(x) > 0)) subset(x, complete.cases(x)) else x)
         de.genes %<>% names() %>% setNames(., .) %>%
           sccore::plapply(function(n) appendSpecificityMetricsToDE(de.genes[[n]], groups.clean, n, p2.counts=cm.merged, append.auc=append.auc),
@@ -1001,9 +999,9 @@ Conos <- R6::R6Class("Conos", lock_objects=FALSE,
     # a utility function to look up an embedding by name or accept an actual embedding data
     getEmbedding=function(embedding) {
       if (!is.null(embedding)) {
-        if(class(embedding) %in% c('matrix')) { # actuall embedding was passed
+        if (class(embedding) %in% c('matrix')) { # actuall embedding was passed
           # check validity?
-        } else if(class(embedding)=='character') {  # look up embedding by name
+        } else if (inherits(embedding, 'character')) {  # look up embedding by name
           ## check if embedding.name exists in list
           if (embedding %in% names(self$embeddings)) {
             ## embedding to plot
