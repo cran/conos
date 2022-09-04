@@ -212,7 +212,7 @@ docker pull pkharchenkolab/conos:latest
 
 #### Building Docker image from the Dockerfile
 
-If you want to build image by your own, download the [Dockerfile](https://github.com/kharchenkolab/conos/blob/main/docker/Dockerfile) (available in this repo under `/dockers`) and run to following command to build it:
+If you want to build image by your own, download the [Dockerfile](https://github.com/kharchenkolab/conos/blob/main/docker/Dockerfile) (available in this repo under `/docker`) and run to following command to build it:
 ```
 docker build -t conos .
 ```
@@ -238,5 +238,5 @@ The R package can be cited as:
 ```
 Viktor Petukhov, Nikolas Barkas, Peter Kharchenko, and Evan
 Biederstedt (2021). conos: Clustering on Network of Samples. R
-package version 1.4.6.
+package version 1.4.7.
 ```
