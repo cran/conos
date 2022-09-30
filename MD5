@@ -1,4 +1,4 @@
-275223b2231f3384ff13aa06b0e9cd0b *DESCRIPTION
+53b1b7c5ed474b7929728209a7da1ade *DESCRIPTION
 50a2b726d80b8945c2d85d57502be497 *NAMESPACE
 257fcc6844b94187e649e08ff7fe2b34 *R/RcppExports.R
 603ea6178259d0c99887e781dbbc1ec7 *R/access_wrappers.R
@@ -11,7 +11,7 @@ e9668258bcd219ac9ebd856af220c68a *R/graph_embedding.R
 38e6849cbc777eb3af94459571253261 *R/integrations.R
 3cddfd128e8abb8286f5f7084fae9a07 *R/largeVis.R
 e2ab9e540584d54c9b85b5b692dabd5d *R/plot.R
-199f1ebe71957a9e4669e03650d9a0b8 *README.md
+9e15b96cb3ecb60f058e7449134855b7 *README.md
 46f8ff274967c4244d66e3696d745233 *data/small_panel.preprocessed.rda
 ff08b0575b5fdf2efc9e439157d95f2c *inst/COPYRIGHTS
 a3e977520ed794ae5003e2e56b869959 *inst/conos_logo.png
@@ -91,7 +91,7 @@ c326e893c0452e01103e52eea51ea02d *src/edgeFilter.cpp
 b617cb31d3672109767511603b3d229a *src/include/alias.h
 01fdd96716a5242eb334ac11b8561763 *src/include/gradients.h
 f0de146413db568b8577035e70400927 *src/include/largeVis.h
-85809fb910c245a1872756d0ff5f5993 *src/largeVis.cpp
+0471c856bbb6f28e863040ac9e91ddad *src/largeVis.cpp
 6d4cd1090a444b55125e3ad2a6d0e8a4 *src/propagate_labels.cpp
 8ba50d44e3b89002f588a2452aaeb3ed *src/spcov.cpp
 d4e0eee6b623bd129bc212a8f68cb8c3 *tests/testthat.R
