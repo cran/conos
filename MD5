@@ -1,4 +1,4 @@
-dc12d2c361d53bbbc6b81727da6d8174 *DESCRIPTION
+766c9c1747d4f76dad5dd32401133d6c *DESCRIPTION
 60a244a84776077da523ba95ecbd4cf1 *NAMESPACE
 257fcc6844b94187e649e08ff7fe2b34 *R/RcppExports.R
 603ea6178259d0c99887e781dbbc1ec7 *R/access_wrappers.R
@@ -11,7 +11,7 @@ e9668258bcd219ac9ebd856af220c68a *R/graph_embedding.R
 38e6849cbc777eb3af94459571253261 *R/integrations.R
 529b2a83b9da5494119f435eb5241b60 *R/largeVis.R
 4e2d39b6ff5b6d5f9a34e3ce29f85cfb *R/plot.R
-f2c43c27dd0e7f5336d8aa3c5f95deeb *README.md
+45c5690635a2d47f6e452838a4ea8337 *README.md
 46f8ff274967c4244d66e3696d745233 *data/small_panel.preprocessed.rda
 ff08b0575b5fdf2efc9e439157d95f2c *inst/COPYRIGHTS
 a3e977520ed794ae5003e2e56b869959 *inst/conos_logo.png
@@ -75,8 +75,8 @@ d79637d59b2ba7627063b57dd0d9861f *man/sgdBatches.Rd
 3e8d3c562080a091f22f543380146549 *man/small_panel.preprocessed.Rd
 ec8a8ed06cdc90d0c4a870c5beec2321 *man/stableTreeClusters.Rd
 1f7a1cd80485ad2de79a97f59b5a2002 *man/velocityInfoConos.Rd
-8f231c2a6b3aa5abf4fa772def9aebc3 *src/Makevars
-715fde785f21533a7f5a563924607221 *src/Makevars.win
+802dd972b1a5f119801e4a3df639e531 *src/Makevars
+0b00b35ee7b58a2da77f30b0c829b5a2 *src/Makevars.win
 84cb04c4dfd8014491f7211398416d05 *src/RcppExports.cpp
 34b117354cb9e7901efb14c344308c83 *src/Rjnmf.cpp
 b4881f935fa5641abafab9c969ae201d *src/adjustedRand.cpp
@@ -95,4 +95,4 @@ f0de146413db568b8577035e70400927 *src/include/largeVis.h
 6d4cd1090a444b55125e3ad2a6d0e8a4 *src/propagate_labels.cpp
 8ba50d44e3b89002f588a2452aaeb3ed *src/spcov.cpp
 d4e0eee6b623bd129bc212a8f68cb8c3 *tests/testthat.R
-9abf972039a7d221b2a7143b41de30d4 *tests/testthat/test_functions.R
+fc19b643520930bf84b2417eba6f7f8a *tests/testthat/test_functions.R
